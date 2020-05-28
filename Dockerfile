@@ -3,3 +3,4 @@ RUN apt-get update
 WORKDIR /usr/
 COPY Gemfile /usr/
 RUN bundle install
+RUN cucumber features/test.feature
