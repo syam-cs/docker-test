@@ -3,6 +3,6 @@ services:
   docker-test:
     volumes:
       volumes:
-        - ./test.txt:/test.txt
+        - ./output/report.html:/output/report.html
     image: syamchangethu/docker-test:latest
     container_name: docker-test
