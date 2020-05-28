@@ -6,3 +6,4 @@ RUN bundle install
 RUN touch test.txt
 CMD ["cucumber", "--require", "features", "--format", "pretty", "--format", "html", "--out", "output/report.html"]
 VOLUME /myvolume
+COPY test.txt /usr/share/jenkins/ref/
