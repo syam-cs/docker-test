@@ -2,6 +2,6 @@ version: "3"
 services:
   docker-test:
     volumes:
-      - /features:/usr/test.txt
+      -/features:/usr/test.txt
     image: syamchangethu/docker-test:latest
     container_name: docker-test
