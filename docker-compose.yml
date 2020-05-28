@@ -2,7 +2,6 @@ version: "3"
 services:
   docker-test:
     volumes:
-      volumes:
         - ./output/report.html:/output/report.html
     image: syamchangethu/docker-test:latest
     container_name: docker-test
