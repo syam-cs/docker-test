@@ -4,4 +4,4 @@ WORKDIR /usr/
 COPY Gemfile /usr/
 RUN bundle install
 CMD ["cucumber", "--require", "features", "--format", "pretty", "--format", "html", "--out", "output/report.html"]
-RUN cp output/report.html /
+RUN cp /usr/output/report.html .
