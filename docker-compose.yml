@@ -1,8 +1,7 @@
 version: "3"
 services:
   docker-test:
-    volumes:
-        - /output/:/output/
     image: syamchangethu/docker-test:latest
-    tty: true
     container_name: docker-test
+    volumes:
+      - /output/:/output/
