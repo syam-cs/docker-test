@@ -3,4 +3,4 @@ ADD ./ /docker-test/
 WORKDIR /docker-test
 RUN bundle install
 
-ENTRYPOINT cat features/test.feature
+ENTRYPOINT cucumber features/test.feature
