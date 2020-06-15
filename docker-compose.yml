@@ -1,7 +1,0 @@
-version: "3"
-services:
-  docker-test:
-    image: syamchangethu/docker-test:latest
-    container_name: docker-test
-    volumes:
-      - /output/:/output/

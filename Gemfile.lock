@@ -23,12 +23,14 @@ GEM
     gherkin (5.1.0)
     multi_json (1.14.1)
     multi_test (0.1.2)
+    rake (13.0.1)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   cucumber
+  rake
 
 RUBY VERSION
    ruby 2.5.1p57
