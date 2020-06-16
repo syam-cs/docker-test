@@ -1,5 +1,4 @@
 FROM ruby:2.5.1
-RUN mkdir reports
 ADD ./ /docker-test/
 WORKDIR /docker-test
 RUN bundle install
